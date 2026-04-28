@@ -1,0 +1,25 @@
+{
+  "documents": [
+    {
+      "id": "offer",
+      "title": "Публичная оферта",
+      "filename": "offer.txt",
+      "version": "1.0",
+      "updated": "2024-12-15"
+    },
+    {
+      "id": "privacy",
+      "title": "Политика конфиденциальности",
+      "filename": "privacy.txt",
+      "version": "1.0",
+      "updated": "2024-12-15"
+    },
+    {
+      "id": "rules",
+      "title": "Правила бронирования",
+      "filename": "rules.txt",
+      "version": "1.0",
+      "updated": "2024-12-15"
+    }
+  ]
+}

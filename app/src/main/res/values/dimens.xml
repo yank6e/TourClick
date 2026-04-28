@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="seat_width">40dp</dimen>
+    <dimen name="seat_height">40dp</dimen>
+</resources>

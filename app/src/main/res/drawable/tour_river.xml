@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="100dp"
+    android:viewportWidth="120"
+    android:viewportHeight="100">
+    <!-- Небо -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M0,0h120v100H0z"/>
+    <!-- Река -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M0,60 Q60,40 120,70 L120,100 L0,100 Z"/>
+    <!-- Лодка -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M50,70 L80,70 L75,80 L55,80 Z"/>
+    <!-- Волны -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M30,75 Q35,72 40,75 Q45,78 50,75"/>
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M90,72 Q95,69 100,72 Q105,75 110,72"/>
+</vector>

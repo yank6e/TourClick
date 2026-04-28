@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Стиль для кнопок времени (контурные кнопки) -->
+    <style name="Widget.TourClick.TimeButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/green_primary</item>
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Стиль для выбранной кнопки времени -->
+    <style name="Widget.TourClick.TimeButton.Selected" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundTint">@color/green_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Стиль для основной кнопки (Добавить в корзину) -->
+    <style name="Widget.TourClick.PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundTint">@color/green_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Стиль для второстепенных кнопок -->
+    <style name="Widget.TourClick.SecondaryButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/green_primary</item>
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Стиль для кнопок времени -->
+    <style name="TimeButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/time_button_background</item>
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="TimeButtonStyle.Selected">
+        <item name="android:background">@drawable/time_button_background_selected</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Стиль для кнопок профиля -->
+    <style name="ProfileButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/green_primary</item>
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+        <!-- Стили для темной темы -->
+        <style name="Widget.TourClick.TextInputLayout.Dark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="boxBackgroundColor">@color/card_dark</item>
+            <item name="boxStrokeColor">@color/green_primary</item>
+            <item name="hintTextColor">@color/text_secondary_dark</item>
+            <item name="android:textColorHint">@color/text_secondary_dark</item>
+            <item name="boxCornerRadiusBottomStart">8dp</item>
+            <item name="boxCornerRadiusBottomEnd">8dp</item>
+            <item name="boxCornerRadiusTopStart">8dp</item>
+            <item name="boxCornerRadiusTopEnd">8dp</item>
+        </style>
+
+        <style name="Widget.TourClick.TextInputEditText.Dark">
+            <item name="android:textColor">@color/text_primary_dark</item>
+            <item name="android:textColorHint">@color/text_secondary_dark</item>
+            <item name="android:backgroundTint">@color/green_primary</item>
+        </style>
+
+        <!-- Стиль для CheckBox в темной теме -->
+        <style name="Widget.TourClick.CheckBox.Dark">
+            <item name="android:textColor">@color/text_primary_dark</item>
+            <item name="buttonTint">@color/green_primary</item>
+        </style>
+
+        <!-- Стиль для карточек в темной теме -->
+        <style name="Widget.TourClick.Card.Dark" parent="Widget.MaterialComponents.CardView">
+            <item name="cardBackgroundColor">@color/card_dark</item>
+            <item name="strokeColor">@color/gray_light_dark</item>
+            <item name="strokeWidth">1dp</item>
+        </style>
+
+    <!-- Автоматическая тема для Material компонентов -->
+    <style name="ThemeOverlay.TourClick.Dark" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="android:statusBarColor">@color/green_dark</item>
+    </style>
+
+    <style name="ThemeOverlay.TourClick.Light" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Widget.TourClick.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="buttonTint">@color/green_primary</item>
+    </style>
+
+    <!-- Стиль для TextInputEditText -->
+    <style name="Widget.TourClick.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!-- Стиль для TextInputLayout -->
+    <style name="Widget.TourClick.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@color/green_primary</item>
+        <item name="hintTextColor">?android:attr/textColorSecondary</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+    </style>
+</resources>

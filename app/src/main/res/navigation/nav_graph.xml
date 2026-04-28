@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Auth Flow -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.hfad.yultour.LoginFragment"
+        android:label="Вход"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_tourSearchFragment"
+            app:destination="@id/tourSearchFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.hfad.yultour.RegisterFragment"
+        android:label="Регистрация"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_tourSearchFragment"
+            app:destination="@id/tourSearchFragment"
+            app:popUpTo="@id/registerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Main Flow -->
+    <fragment
+        android:id="@+id/tourSearchFragment"
+        android:name="com.hfad.yultour.TourSearchFragment"
+        android:label="YulTour"
+        tools:layout="@layout/fragment_tour_search">
+        <action
+            android:id="@+id/action_tourSearchFragment_to_tourDetailsFragment"
+            app:destination="@id/tourDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tourDetailsFragment"
+        android:name="com.hfad.yultour.TourDetailsFragment"
+        android:label="Детали тура"
+        tools:layout="@layout/fragment_tour_details">
+        <argument
+            android:name="tourId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_tourDetailsFragment_to_seatSelectionFragment"
+            app:destination="@id/seatSelectionFragment" />
+    </fragment>
+
+    <!-- Bottom Navigation Fragments -->
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.hfad.yultour.FavoritesFragment"
+        android:label="Избранное"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_tourDetailsFragment"
+            app:destination="@id/tourDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/purchasedFragment"
+        android:name="com.hfad.yultour.PurchasedFragment"
+        android:label="Покупки"
+        tools:layout="@layout/fragment_purchased">
+        <action
+            android:id="@+id/action_purchasedFragment_to_seatSelectionFragment"
+            app:destination="@id/seatSelectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.hfad.yultour.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_supportChatFragment"
+            app:destination="@id/supportChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/supportChatFragment"
+        android:name="com.hfad.yultour.SupportChatFragment"
+        android:label="Поддержка"
+        tools:layout="@layout/fragment_support_chat" />
+
+    <!-- Seat Selection Fragment -->
+    <fragment
+        android:id="@+id/seatSelectionFragment"
+        android:name="com.hfad.yultour.SeatSelectionFragment"
+        android:label="Выбор мест"
+        tools:layout="@layout/fragment_seat_selection">
+        <argument
+            android:name="tourId"
+            app:argType="string" />
+        <argument
+            android:name="tourTitle"
+            app:argType="string" />
+        <argument
+            android:name="tourPrice"
+            app:argType="float" />
+        <argument
+            android:name="bookingId"
+            app:argType="string" />
+        <argument
+            android:name="selectedTime"
+            app:argType="string"
+            android:defaultValue="09:00" />
+        <argument
+            android:name="selectedDate"
+            app:argType="string"
+            android:defaultValue="" />
+        <!-- ✅ ДОБАВЛЕНО: Действие к PaymentFragment -->
+        <action
+            android:id="@+id/action_seatSelectionFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+        <action
+            android:id="@+id/action_seatSelectionFragment_back"
+            app:destination="@id/purchasedFragment"
+            app:popUpTo="@id/purchasedFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <!-- ✅ ДОБАВЛЕНО: Payment Fragment -->
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.hfad.yultour.PaymentFragment"
+        android:label="Оплата"
+        tools:layout="@layout/fragment_payment">
+        <argument
+            android:name="bookingId"
+            app:argType="string" />
+        <argument
+            android:name="tourId"
+            app:argType="string" />
+        <argument
+            android:name="tourTitle"
+            app:argType="string" />
+        <argument
+            android:name="tourDate"
+            app:argType="string" />
+        <argument
+            android:name="tourTime"
+            app:argType="string" />
+        <argument
+            android:name="seatNumbers"
+            app:argType="string[]" />
+        <argument
+            android:name="totalPrice"
+            app:argType="float" />
+        <argument
+            android:name="passengersCount"
+            app:argType="integer" />
+        <!-- ✅ ДОБАВЛЕНО: Действие к ReceiptFragment -->
+        <action
+            android:id="@+id/action_paymentFragment_to_receiptFragment"
+            app:destination="@id/receiptFragment"
+            app:popUpTo="@id/paymentFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- ✅ ДОБАВЛЕНО: Receipt Fragment -->
+    <fragment
+        android:id="@+id/receiptFragment"
+        android:name="com.hfad.yultour.ReceiptFragment"
+        android:label="Чек"
+        tools:layout="@layout/fragment_receipt">
+        <argument
+            android:name="receiptText"
+            app:argType="string" />
+        <argument
+            android:name="transactionId"
+            app:argType="string" />
+        <argument
+            android:name="amount"
+            app:argType="float" />
+        <argument
+            android:name="tourTitle"
+            app:argType="string" />
+        <argument
+            android:name="tourDate"
+            app:argType="string" />
+        <argument
+            android:name="seats"
+            app:argType="string" />
+        <!-- ✅ ДОБАВЛЕНО: Действие к TourSearchFragment -->
+        <action
+            android:id="@+id/action_receiptFragment_to_tourSearchFragment"
+            app:destination="@id/tourSearchFragment"
+            app:popUpTo="@id/tourSearchFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

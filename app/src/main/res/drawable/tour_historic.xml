@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="100dp"
+    android:viewportWidth="120"
+    android:viewportHeight="100">
+    <!-- Фон -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M0,0h120v100H0z"/>
+    <!-- Историческое здание -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M30,50h60v30H30z"/>
+    <!-- Колонны -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M35,30h5v20h-5z"/>
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M80,30h5v20h-5z"/>
+    <!-- Крыша -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M25,30h70l-10,20H35Z"/>
+</vector>

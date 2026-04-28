@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">YulTour</string>
+    <string name="tour_image">Изображение тура</string>
+    <string name="price_format">От %d₽ • Бесплатная отмена</string>
+    <string name="select_date">Выберите дату</string>
+    <string name="select_people">Выберите количество людей</string>
+    <string name="searching">Поиск…</string>
+    <string name="find">Найти</string>
+    <string name="no_tours_found">Туры не найдены\nПопробуйте другие направления</string>
+    <string name="please_select_date">Пожалуйста, выберите дату</string>
+    <string name="found_tours">Найдено %d туров</string>
+    <string name="showing_all_tours">Показано всех %d туров</string>
+    <string name="title_profile">Профиль</string>
+
+    <!-- Новые строки для деталей тура -->
+    <string name="choose_time">Выберите время</string>
+    <string name="departure_stops">Отправление и остановки</string>
+    <string name="departure">Отправление</string>
+    <string name="stops">Остановки</string>
+    <string name="tour_description">Описание тура</string>
+    <string name="highlights">Основные преимущества</string>
+    <string name="guide_info">Информация о гиде</string>
+    <string name="reviews">Отзывы</string>
+    <string name="add_to_cart">Добавить в корзину</string>
+</resources>

@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="100dp"
+    android:viewportWidth="120"
+    android:viewportHeight="100">
+    <!-- Небо -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M0,0h120v100H0z"/>
+    <!-- Горы -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M0,100 L40,40 L80,80 L120,20 L120,100 Z"/>
+    <!-- Снег на вершинах -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,45 L40,40 L50,50 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,30 L120,20 L110,40 Z"/>
+</vector>

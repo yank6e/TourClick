@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437333560489",
+    "project_id": "tourclick-ee44f",
+    "storage_bucket": "tourclick-ee44f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437333560489:android:e041cd5df12535eb246db8",
+        "android_client_info": {
+          "package_name": "com.hfad.yultour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk-2BTpcLf4ydIvBaw22kpg0vgUsQthEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
