@@ -45,7 +45,7 @@
       "guideId": "guide_rus_3",
       "availableTimes": ["06:00"],
       "maxPassengers": 15,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "altai",
       "category": "adventure"
     },
     {
@@ -61,7 +61,7 @@
       "guideId": "guide_rus_4",
       "availableTimes": ["07:00", "08:00"],
       "maxPassengers": 18,
-      "imageResource": "tour_sunset_beach1",
+      "imageResource": "baikal_fairy_tail",
       "category": "nature"
     },
     {
@@ -125,7 +125,7 @@
       "guideId": "guide_rus_8",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 18,
-      "imageResource": "china_wall",
+      "imageResource": "caucasian_mineral_waters",
       "category": "health"
     },
     {
@@ -141,7 +141,7 @@
       "guideId": "guide_rus_9",
       "availableTimes": ["09:00", "10:00", "11:00"],
       "maxPassengers": 25,
-      "imageResource": "france_effel",
+      "imageResource": "saint_petersburg",
       "category": "cultural"
     },
     {
@@ -189,7 +189,7 @@
       "guideId": "guide_rus_12",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 20,
-      "imageResource": "japan_temple",
+      "imageResource": "sochi",
       "category": "mountain"
     },
     {
@@ -205,7 +205,7 @@
       "guideId": "guide_rus_13",
       "availableTimes": ["08:00", "10:00"],
       "maxPassengers": 20,
-      "imageResource": "tour_coastal_heritage1",
+      "imageResource": "kaliningrad",
       "category": "coastal"
     },
     {
@@ -237,7 +237,7 @@
       "guideId": "guide_rus_15",
       "availableTimes": ["06:00"],
       "maxPassengers": 12,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "kamchatka_volcanoes",
       "category": "adventure"
     },
     {
@@ -269,7 +269,7 @@
       "guideId": "guide_rus_17",
       "availableTimes": ["09:00", "11:00", "14:00"],
       "maxPassengers": 35,
-      "imageResource": "russia_kremlin",
+      "imageResource": "architectural_moscow",
       "category": "cultural"
     },
     {
@@ -285,7 +285,7 @@
       "guideId": "guide_rus_18",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 18,
-      "imageResource": "tour_wine_country1",
+      "imageResource": "plyos",
       "category": "cultural"
     },
     {
@@ -301,7 +301,7 @@
       "guideId": "guide_rus_19",
       "availableTimes": ["07:00"],
       "maxPassengers": 14,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "dagestan",
       "category": "adventure"
     },
     {
@@ -333,7 +333,7 @@
       "guideId": "guide_rus_21",
       "availableTimes": ["08:00", "10:00", "12:00"],
       "maxPassengers": 25,
-      "imageResource": "tour_eco_city1",
+      "imageResource": "rostov",
       "category": "historical"
     },
     {
