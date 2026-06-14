@@ -29,7 +29,7 @@
       "guideId": "guide_rus_2",
       "availableTimes": ["07:00", "08:00"],
       "maxPassengers": 20,
-      "imageResource": "tour_coastal_heritage1",
+      "imageResource": "karelian_lakes",
       "category": "nature"
     },
     {
@@ -77,7 +77,7 @@
       "guideId": "guide_rus_5",
       "availableTimes": ["09:00", "10:00"],
       "maxPassengers": 22,
-      "imageResource": "tour_wine_country1",
+      "imageResource": "crimean_riviera",
       "category": "coastal"
     },
     {
@@ -109,7 +109,7 @@
       "guideId": "guide_rus_7",
       "availableTimes": ["10:00"],
       "maxPassengers": 30,
-      "imageResource": "russia_kremlin",
+      "imageResource": "volga_expanses",
       "category": "river"
     },
     {
@@ -157,7 +157,7 @@
       "guideId": "guide_rus_10",
       "availableTimes": ["07:00"],
       "maxPassengers": 16,
-      "imageResource": "italy_colosseum",
+      "imageResource": "trans_siberian_express",
       "category": "adventure"
     },
     {
@@ -173,7 +173,7 @@
       "guideId": "guide_rus_11",
       "availableTimes": ["09:00", "14:00"],
       "maxPassengers": 22,
-      "imageResource": "india_tajmahal",
+      "imageResource": "kazan",
       "category": "cultural"
     },
     {
@@ -253,7 +253,7 @@
       "guideId": "guide_rus_16",
       "availableTimes": ["07:00", "08:00", "09:00"],
       "maxPassengers": 30,
-      "imageResource": "tour_eco_city1",
+      "imageResource": "golden_gate",
       "category": "historical"
     },
     {
