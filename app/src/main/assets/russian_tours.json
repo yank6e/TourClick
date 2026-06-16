@@ -13,7 +13,7 @@
       "guideId": "guide_rus_1",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 25,
-      "imageResource": "tour_eco_city1",
+      "imageResource": "gold_ring",
       "category": "historical"
     },
     {
@@ -29,7 +29,7 @@
       "guideId": "guide_rus_2",
       "availableTimes": ["07:00", "08:00"],
       "maxPassengers": 20,
-      "imageResource": "tour_coastal_heritage1",
+      "imageResource": "karelian_lakes",
       "category": "nature"
     },
     {
@@ -45,7 +45,7 @@
       "guideId": "guide_rus_3",
       "availableTimes": ["06:00"],
       "maxPassengers": 15,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "altai",
       "category": "adventure"
     },
     {
@@ -61,7 +61,7 @@
       "guideId": "guide_rus_4",
       "availableTimes": ["07:00", "08:00"],
       "maxPassengers": 18,
-      "imageResource": "tour_sunset_beach1",
+      "imageResource": "baikal_fairy_tail",
       "category": "nature"
     },
     {
@@ -77,7 +77,7 @@
       "guideId": "guide_rus_5",
       "availableTimes": ["09:00", "10:00"],
       "maxPassengers": 22,
-      "imageResource": "tour_wine_country1",
+      "imageResource": "crimean_riviera",
       "category": "coastal"
     },
     {
@@ -93,7 +93,7 @@
       "guideId": "guide_rus_6",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 20,
-      "imageResource": "tour_historic_downtown1",
+      "imageResource": "urals_stones",
       "category": "adventure"
     },
     {
@@ -109,7 +109,7 @@
       "guideId": "guide_rus_7",
       "availableTimes": ["10:00"],
       "maxPassengers": 30,
-      "imageResource": "russia_kremlin",
+      "imageResource": "volga_expanses",
       "category": "river"
     },
     {
@@ -125,7 +125,7 @@
       "guideId": "guide_rus_8",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 18,
-      "imageResource": "china_wall",
+      "imageResource": "caucasian_mineral_waters",
       "category": "health"
     },
     {
@@ -141,7 +141,7 @@
       "guideId": "guide_rus_9",
       "availableTimes": ["09:00", "10:00", "11:00"],
       "maxPassengers": 25,
-      "imageResource": "france_effel",
+      "imageResource": "saint_petersburg",
       "category": "cultural"
     },
     {
@@ -157,7 +157,7 @@
       "guideId": "guide_rus_10",
       "availableTimes": ["07:00"],
       "maxPassengers": 16,
-      "imageResource": "italy_colosseum",
+      "imageResource": "trans_siberian_express",
       "category": "adventure"
     },
     {
@@ -173,7 +173,7 @@
       "guideId": "guide_rus_11",
       "availableTimes": ["09:00", "14:00"],
       "maxPassengers": 22,
-      "imageResource": "india_tajmahal",
+      "imageResource": "kazan",
       "category": "cultural"
     },
     {
@@ -189,7 +189,7 @@
       "guideId": "guide_rus_12",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 20,
-      "imageResource": "japan_temple",
+      "imageResource": "sochi",
       "category": "mountain"
     },
     {
@@ -205,7 +205,7 @@
       "guideId": "guide_rus_13",
       "availableTimes": ["08:00", "10:00"],
       "maxPassengers": 20,
-      "imageResource": "tour_coastal_heritage1",
+      "imageResource": "kaliningrad",
       "category": "coastal"
     },
     {
@@ -221,7 +221,7 @@
       "guideId": "guide_rus_14",
       "availableTimes": ["07:00", "09:00"],
       "maxPassengers": 28,
-      "imageResource": "tour_historic_downtown1",
+      "imageResource": "veliky_novgorod",
       "category": "historical"
     },
     {
@@ -237,7 +237,7 @@
       "guideId": "guide_rus_15",
       "availableTimes": ["06:00"],
       "maxPassengers": 12,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "kamchatka_volcanoes",
       "category": "adventure"
     },
     {
@@ -253,7 +253,7 @@
       "guideId": "guide_rus_16",
       "availableTimes": ["07:00", "08:00", "09:00"],
       "maxPassengers": 30,
-      "imageResource": "tour_eco_city1",
+      "imageResource": "golden_gate",
       "category": "historical"
     },
     {
@@ -269,7 +269,7 @@
       "guideId": "guide_rus_17",
       "availableTimes": ["09:00", "11:00", "14:00"],
       "maxPassengers": 35,
-      "imageResource": "russia_kremlin",
+      "imageResource": "architectural_moscow",
       "category": "cultural"
     },
     {
@@ -285,7 +285,7 @@
       "guideId": "guide_rus_18",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 18,
-      "imageResource": "tour_wine_country1",
+      "imageResource": "plyos",
       "category": "cultural"
     },
     {
@@ -301,7 +301,7 @@
       "guideId": "guide_rus_19",
       "availableTimes": ["07:00"],
       "maxPassengers": 14,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "dagestan",
       "category": "adventure"
     },
     {
@@ -317,7 +317,7 @@
       "guideId": "guide_rus_20",
       "availableTimes": ["06:00"],
       "maxPassengers": 16,
-      "imageResource": "tour_coastal_heritage1",
+      "imageResource": "solovec_island",
       "category": "historical"
     },
     {
@@ -333,7 +333,7 @@
       "guideId": "guide_rus_21",
       "availableTimes": ["08:00", "10:00", "12:00"],
       "maxPassengers": 25,
-      "imageResource": "tour_eco_city1",
+      "imageResource": "rostov",
       "category": "historical"
     },
     {
@@ -349,8 +349,216 @@
       "guideId": "guide_rus_22",
       "availableTimes": ["07:00", "08:00"],
       "maxPassengers": 15,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "hibiny",
       "category": "adventure"
+    },
+    {
+      "id": "russia_23",
+      "title": "От двух столиц до Волги",
+      "description": "Большой автобусный тур по историческим и культурным центрам европейской части России.",
+      "price": 34900.0,
+      "duration": "5 дней",
+      "rating": 4.8,
+      "startPoint": "Москва",
+      "stops": "Санкт-Петербург, Ярославль, Нижний Новгород, Казань",
+      "highlights": ["Кремли", "Архитектура", "История", "Гастрономия"],
+      "guideId": "guide_rus_23",
+      "availableTimes": ["07:00", "08:00"],
+      "maxPassengers": 30,
+      "imageResource": "two_capitals_volga",
+      "category": "historical"
+    },
+    {
+      "id": "russia_24",
+      "title": "Волжский экспресс",
+      "description": "Автобусное путешествие по крупнейшим городам Поволжья.",
+      "price": 27900.0,
+      "duration": "4 дня",
+      "rating": 4.7,
+      "startPoint": "Казань",
+      "stops": "Нижний Новгород, Саратов, Волгоград",
+      "highlights": ["Волга", "Культура", "История", "Набережные"],
+      "guideId": "guide_rus_24",
+      "availableTimes": ["08:00"],
+      "maxPassengers": 28,
+      "imageResource": "volga_express",
+      "category": "river"
+    },
+    {
+      "id": "russia_25",
+      "title": "Урал и Сибирь",
+      "description": "Маршрут через крупнейшие города Урала и Западной Сибири.",
+      "price": 45900.0,
+      "duration": "6 дней",
+      "rating": 4.9,
+      "startPoint": "Екатеринбург",
+      "stops": "Тюмень, Новосибирск, Красноярск",
+      "highlights": ["Сибирь", "Города", "Природа", "Музеи"],
+      "guideId": "guide_rus_25",
+      "availableTimes": ["07:00"],
+      "maxPassengers": 22,
+      "imageResource": "ural_siberia",
+      "category": "adventure"
+    },
+    {
+      "id": "russia_26",
+      "title": "Балтийское путешествие",
+      "description": "Тур между двумя культурными центрами России с посещением Балтийского побережья.",
+      "price": 23900.0,
+      "duration": "3 дня",
+      "rating": 4.8,
+      "startPoint": "Санкт-Петербург",
+      "stops": "Калининград",
+      "highlights": ["Балтика", "Архитектура", "Море", "История"],
+      "guideId": "guide_rus_26",
+      "availableTimes": ["09:00"],
+      "maxPassengers": 24,
+      "imageResource": "baltic_journey",
+      "category": "coastal"
+    },
+    {
+      "id": "russia_27",
+      "title": "Южные города России",
+      "description": "Автобусный тур по главным курортным и южным регионам страны.",
+      "price": 29900.0,
+      "duration": "4 дня",
+      "rating": 4.8,
+      "startPoint": "Краснодар",
+      "stops": "Сочи, Ростов-на-Дону, Волгоград",
+      "highlights": ["Море", "Курорты", "Гастрономия", "Юг России"],
+      "guideId": "guide_rus_27",
+      "availableTimes": ["08:00", "09:00"],
+      "maxPassengers": 25,
+      "imageResource": "southern_russia",
+      "category": "coastal"
+    },
+    {
+      "id": "russia_28",
+      "title": "От Волги до Урала",
+      "description": "Маршрут через города европейской и уральской частей России.",
+      "price": 31900.0,
+      "duration": "5 дней",
+      "rating": 4.7,
+      "startPoint": "Уфа",
+      "stops": "Казань, Пермь, Екатеринбург",
+      "highlights": ["Национальная культура", "История", "Урал", "Архитектура"],
+      "guideId": "guide_rus_28",
+      "availableTimes": ["07:00"],
+      "maxPassengers": 26,
+      "imageResource": "volga_ural",
+      "category": "cultural"
+    },
+    {
+      "id": "russia_29",
+      "title": "Сибирская магистраль",
+      "description": "Путешествие через крупнейшие города Сибири.",
+      "price": 49900.0,
+      "duration": "6 дней",
+      "rating": 4.9,
+      "startPoint": "Новосибирск",
+      "stops": "Красноярск, Иркутск",
+      "highlights": ["Сибирь", "Природа", "Реки", "История"],
+      "guideId": "guide_rus_29",
+      "availableTimes": ["06:00"],
+      "maxPassengers": 20,
+      "imageResource": "siberian_route",
+      "category": "adventure"
+    },
+    {
+      "id": "russia_30",
+      "title": "Россия от столицы до Тихого океана",
+      "description": "Грандиозный автобусный маршрут через всю страну.",
+      "price": 119000.0,
+      "duration": "10 дней",
+      "rating": 5.0,
+      "startPoint": "Москва",
+      "stops": "Нижний Новгород, Казань, Екатеринбург, Новосибирск, Красноярск, Иркутск, Владивосток",
+      "highlights": ["Трансроссийский маршрут", "Природа", "История", "Приключение"],
+      "guideId": "guide_rus_30",
+      "availableTimes": ["06:00"],
+      "maxPassengers": 18,
+      "imageResource": "russia_pacific",
+      "category": "adventure"
+    },
+    {
+      "id": "russia_31",
+      "title": "Золотая дуга Поволжья",
+      "description": "Автобусный тур по крупнейшим историческим городам Поволжья с насыщенной экскурсионной программой.",
+      "price": 28900.0,
+      "duration": "4 дня",
+      "rating": 4.8,
+      "startPoint": "Ярославль",
+      "stops": "Нижний Новгород, Казань, Саратов",
+      "highlights": ["Волга", "История", "Кремли", "Гастрономия"],
+      "guideId": "guide_rus_31",
+      "availableTimes": ["08:00"],
+      "maxPassengers": 26,
+      "imageResource": "golden_volga_arc",
+      "category": "historical"
+    },
+    {
+      "id": "russia_32",
+      "title": "Уральское кольцо",
+      "description": "Маршрут по крупнейшим городам Урала с посещением природных и исторических достопримечательностей.",
+      "price": 25900.0,
+      "duration": "4 дня",
+      "rating": 4.7,
+      "startPoint": "Екатеринбург",
+      "stops": "Пермь, Уфа, Тюмень",
+      "highlights": ["Урал", "Горы", "История", "Природа"],
+      "guideId": "guide_rus_32",
+      "availableTimes": ["07:00", "08:00"],
+      "maxPassengers": 24,
+      "imageResource": "ural_ring",
+      "category": "adventure"
+    },
+    {
+      "id": "russia_33",
+      "title": "Сибирские горизонты",
+      "description": "Большой автобусный тур через сердце Сибири с посещением крупнейших городов региона.",
+      "price": 54900.0,
+      "duration": "7 дней",
+      "rating": 4.9,
+      "startPoint": "Тюмень",
+      "stops": "Новосибирск, Красноярск, Иркутск",
+      "highlights": ["Сибирь", "Природа", "Культура", "Приключение"],
+      "guideId": "guide_rus_33",
+      "availableTimes": ["06:00"],
+      "maxPassengers": 18,
+      "imageResource": "siberian_horizons",
+      "category": "adventure"
+    },
+    {
+      "id": "russia_34",
+      "title": "От Черного моря до Волги",
+      "description": "Путешествие по югу России от морских курортов до исторических городов Поволжья.",
+      "price": 36900.0,
+      "duration": "5 дней",
+      "rating": 4.8,
+      "startPoint": "Сочи",
+      "stops": "Краснодар, Ростов-на-Дону, Волгоград",
+      "highlights": ["Море", "Юг России", "История", "Гастрономия"],
+      "guideId": "guide_rus_34",
+      "availableTimes": ["08:00"],
+      "maxPassengers": 25,
+      "imageResource": "black_sea_volga",
+      "category": "coastal"
+    },
+    {
+      "id": "russia_35",
+      "title": "Центральная Россия",
+      "description": "Путешествие по крупным городам Центральной России.",
+      "price": 21900.0,
+      "duration": "3 дня",
+      "rating": 4.7,
+      "startPoint": "Москва",
+      "stops": "Воронеж, Волгоград",
+      "highlights": ["История", "Военная слава", "Архитектура", "Музеи"],
+      "guideId": "guide_rus_35",
+      "availableTimes": ["08:00", "09:00"],
+      "maxPassengers": 28,
+      "imageResource": "central_russia",
+      "category": "historical"
     }
   ]
 }
