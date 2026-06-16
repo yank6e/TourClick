@@ -13,7 +13,7 @@
       "guideId": "guide_rus_1",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 25,
-      "imageResource": "tour_eco_city1",
+      "imageResource": "gold_ring",
       "category": "historical"
     },
     {
@@ -93,7 +93,7 @@
       "guideId": "guide_rus_6",
       "availableTimes": ["08:00", "09:00"],
       "maxPassengers": 20,
-      "imageResource": "tour_historic_downtown1",
+      "imageResource": "urals_stones",
       "category": "adventure"
     },
     {
@@ -221,7 +221,7 @@
       "guideId": "guide_rus_14",
       "availableTimes": ["07:00", "09:00"],
       "maxPassengers": 28,
-      "imageResource": "tour_historic_downtown1",
+      "imageResource": "veliky_novgorod",
       "category": "historical"
     },
     {
@@ -317,7 +317,7 @@
       "guideId": "guide_rus_20",
       "availableTimes": ["06:00"],
       "maxPassengers": 16,
-      "imageResource": "tour_coastal_heritage1",
+      "imageResource": "solovec_island",
       "category": "historical"
     },
     {
@@ -349,7 +349,7 @@
       "guideId": "guide_rus_22",
       "availableTimes": ["07:00", "08:00"],
       "maxPassengers": 15,
-      "imageResource": "tour_mountain_loop1",
+      "imageResource": "hibiny",
       "category": "adventure"
     }
   ]
